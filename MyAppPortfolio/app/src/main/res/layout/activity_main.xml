@@ -50,7 +50,7 @@
 
         <Button
             style="@style/AppButtonStyle"
-            android:id="@+id/CapstoneButton"
+            android:id="@+id/capstoneButton"
             android:text="@string/strCapstone"/>
     </LinearLayout>
 </RelativeLayout>

@@ -7,4 +7,5 @@
     <string name="strAppMakeAppMaterial">make your app material</string>
     <string name="strGoUbiquitous">go ubiquitous</string>
     <string name="strCapstone">capstone</string>
+    <string name="strButtonLaunch">This button will launch my %1$s app!</string>
 </resources>
