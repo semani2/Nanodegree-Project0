@@ -10,7 +10,47 @@
     tools:context="development.sai.myappportfolio.MainActivity">
 
     <TextView
+        android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/strMyNanodegreeApps"
+        style="@style/TitleTextStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/titleTextView">
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/popularMoviesButton"
+            android:text="@string/strAppPopularMovies"/>
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/stockHawkButton"
+            android:text="@string/strAppStockHawk"/>
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/buildItBiggerButton"
+            android:text="@string/strAppBuildItBigger"/>
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/makeAppMaterialButton"
+            android:text="@string/strAppMakeAppMaterial"/>
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/goUbiButton"
+            android:text="@string/strGoUbiquitous"/>
+
+        <Button
+            style="@style/AppButtonStyle"
+            android:id="@+id/CapstoneButton"
+            android:text="@string/strCapstone"/>
+    </LinearLayout>
 </RelativeLayout>
